@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85c3e333-6561-41bd-bc8b-f2ca4a92b75c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Diciembre27MecanismosES.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/presentacion/Ejercicio1Clase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/presentacion/Ejercicio2Clase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/presentacion/ProbarFileWriter.java" afterDir="false" />
+    <list default="true" id="85c3e333-6561-41bd-bc8b-f2ca4a92b75c" name="Changes" comment="16:16 Terminando el ejercicio 2">
+      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/presentacion/Ejercicio3Clase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/presentacion/Ejercicio4Clase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/presentacion/ProbarFileReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +47,7 @@
       <recent name="com.corenetworks.presentacion" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ejercicio2Clase">
+  <component name="RunManager" selected="Application.Ejercicio4Clase">
     <configuration name="Ejercicio1Clase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.corenetworks.presentacion.Ejercicio1Clase" />
       <module name="Diciembre27MecanismosES" />
@@ -80,8 +74,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProbarFileWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.corenetworks.presentacion.ProbarFileWriter" />
+    <configuration name="Ejercicio3Clase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.corenetworks.presentacion.Ejercicio3Clase" />
+      <module name="Diciembre27MecanismosES" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.corenetworks.presentacion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ejercicio4Clase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.corenetworks.presentacion.Ejercicio4Clase" />
+      <module name="Diciembre27MecanismosES" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.corenetworks.presentacion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProbarFileReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.corenetworks.presentacion.ProbarFileReader" />
       <module name="Diciembre27MecanismosES" />
       <extension name="coverage">
         <pattern>
@@ -95,9 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ejercicio4Clase" />
+        <item itemvalue="Application.ProbarFileReader" />
+        <item itemvalue="Application.Ejercicio3Clase" />
         <item itemvalue="Application.Ejercicio2Clase" />
         <item itemvalue="Application.Ejercicio1Clase" />
-        <item itemvalue="Application.ProbarFileWriter" />
       </list>
     </recent_temporary>
   </component>
@@ -110,6 +132,19 @@
       <option name="presentableId" value="Default" />
       <updated>1703686525208</updated>
     </task>
+    <task id="LOCAL-00001" summary="16:16 Terminando el ejercicio 2">
+      <option name="closed" value="true" />
+      <created>1703690187373</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703690187373</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="16:16 Terminando el ejercicio 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="16:16 Terminando el ejercicio 2" />
   </component>
 </project>
