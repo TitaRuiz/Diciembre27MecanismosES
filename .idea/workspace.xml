@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85c3e333-6561-41bd-bc8b-f2ca4a92b75c" name="Changes" comment="16:16 Terminando el ejercicio 2">
-      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/presentacion/Ejercicio5Clase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/presentacion/Ejercicio6Clase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/presentacion/Ejercicio8Clase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/presentacion/ProbarBufferedReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/presentacion/ProbarBufferedWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/presentacion/ProbarFileOutputStream.java" afterDir="false" />
+    <list default="true" id="85c3e333-6561-41bd-bc8b-f2ca4a92b75c" name="Changes" comment="20:00 Terminando clase">
+      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/modelo/Producto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/presentacion/ProbarDataReaderStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/presentacion/ProbarObjectReaderStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/presentacion/ProbarObjectWriterStream.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,9 +26,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2a83ke4M37JUs95Ei3UcrJn5DMU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -38,45 +36,19 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.corenetworks.presentacion" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ejercicio8Clase">
-    <configuration name="Ejercicio5Clase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.corenetworks.presentacion.Ejercicio5Clase" />
-      <module name="Diciembre27MecanismosES" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.corenetworks.presentacion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ejercicio6Clase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.corenetworks.presentacion.Ejercicio6Clase" />
-      <module name="Diciembre27MecanismosES" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.corenetworks.presentacion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ProbarObjectReaderStream">
     <configuration name="Ejercicio8Clase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.corenetworks.presentacion.Ejercicio8Clase" />
       <module name="Diciembre27MecanismosES" />
@@ -90,8 +62,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProbarBufferedReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.corenetworks.presentacion.ProbarBufferedReader" />
+    <configuration name="ProbarDataReaderStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.corenetworks.presentacion.ProbarDataReaderStream" />
       <module name="Diciembre27MecanismosES" />
       <extension name="coverage">
         <pattern>
@@ -116,13 +88,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProbarObjectReaderStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.corenetworks.presentacion.ProbarObjectReaderStream" />
+      <module name="Diciembre27MecanismosES" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.corenetworks.presentacion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProbarObjectWriterStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.corenetworks.presentacion.ProbarObjectWriterStream" />
+      <module name="Diciembre27MecanismosES" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.corenetworks.presentacion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProbarObjectReaderStream" />
+        <item itemvalue="Application.ProbarObjectWriterStream" />
+        <item itemvalue="Application.ProbarDataReaderStream" />
         <item itemvalue="Application.Ejercicio8Clase" />
         <item itemvalue="Application.ProbarFileOutputStream" />
-        <item itemvalue="Application.ProbarBufferedReader" />
-        <item itemvalue="Application.Ejercicio6Clase" />
-        <item itemvalue="Application.Ejercicio5Clase" />
       </list>
     </recent_temporary>
   </component>
@@ -151,11 +149,20 @@
       <option name="project" value="LOCAL" />
       <updated>1703695598890</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="20:00 Terminando clase">
+      <option name="closed" value="true" />
+      <created>1703703622788</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703703622788</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="16:16 Terminando el ejercicio 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="16:16 Terminando el ejercicio 2" />
+    <MESSAGE value="20:00 Terminando clase" />
+    <option name="LAST_COMMIT_MESSAGE" value="20:00 Terminando clase" />
   </component>
 </project>
